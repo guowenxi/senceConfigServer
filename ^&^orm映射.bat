@@ -1,0 +1,1 @@
+rimraf ./src/modules/entities & npx typeorm-model-generator -h 127.0.0.1 -d nest -p 3306 -u root -x root -e mysql -o ./src/modules/entities --noConfig true --ce pascal --cp camel
